@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Idea projektu
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Aplikacja ma umożliwiać wyszukiwanie połączeń środkami transportu publicznego.
 
-## Commands
+Zakładamy, że jest wielu przewoźników (np. PKP, PKS), wiele rodzajów pojazdów
+(np. tramwaj, pociąg) i miejsc docelowych (np. przystanek autobusowy, stacja kolejowa).
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Aplikacja ma skupiać się przede wszystkim na podróżującym.
+Powinna znajdować najoptymalniejsze trasy, dostarczać informacji o miejscach docelowych,
+informować o utrudnieniach, umożliwiać zgłaszanie zagubionych rzeczy.
