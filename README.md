@@ -23,4 +23,7 @@ mkdocs gh-deploy
 
 ## Links
 https://www.mkdocs.org/#installation
+
 https://squidfunk.github.io/mkdocs-material/
+
+http://staruml.io/ (the tool to open `model.mdj`)
