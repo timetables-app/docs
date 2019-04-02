@@ -6,6 +6,7 @@ theme:
 nav:
   - './index.md'
   - './responsibilityArea.md'
+  - './workPlan/index.md'
   - './search/index.md'
   - './schedule/index.md'
   - './community/index.md'
