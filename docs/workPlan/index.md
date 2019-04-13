@@ -1,6 +1,6 @@
 # Podział prac
 
- ### Etap 1 - 13 kwietnia 2019
+### Etap 1 - 13 kwietnia 2019
 - Zakładka Firmy
     - możliwość podglądu zarejestrowanych firm (wyświetlania, paginacja, sortowanie)
 - Zakładka Geodane
