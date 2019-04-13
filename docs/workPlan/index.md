@@ -22,10 +22,10 @@
     - formularz dodawania miejsc 
 - Zakładka firmy
     - filtrowanie
-    - zatwierdzaie i blokowanie firm 
+    - zatwierdzanie i blokowanie firm 
 - Zakładka rozkłady
     - poprawa mapy
-    - nasienie przystanków na mapę
+    - dostarczenie przystanków na mapę
     - wybór godziny
     - dodanie przycisku szukaj
     - Wyszukiwanie kursów    
