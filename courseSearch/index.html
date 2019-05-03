@@ -1,0 +1,724 @@
+
+
+
+
+<!doctype html>
+<html lang="pl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Kopiuj do schowka">
+      
+        <meta name="lang:clipboard.copied" content="Skopiowane">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="False">
+      
+        <meta name="lang:search.pipeline.trimmer" content="False">
+      
+        <meta name="lang:search.result.none" content="Brak wyników wyszukiwania">
+      
+        <meta name="lang:search.result.one" content="Wyniki wyszukiwania: 1">
+      
+        <meta name="lang:search.result.other" content="Wyniki wyszukiwania: #">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.0">
+    
+    
+      
+        <title>timetables.app</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#wyszukiwarka" tabindex="1" class="md-skip">
+        Przejdź do treści
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="timetables.app" class="md-header-nav__button md-logo">
+          
+            <img src="../logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              timetables.app
+            </span>
+            <span class="md-header-nav__topic">
+              Wyszukiwarka
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Szukaj" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Zacznij pisać, aby szukać
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="timetables.app" class="md-nav__button md-logo">
+      
+        <img src="../logo.png" width="48" height="48">
+      
+    </a>
+    timetables.app
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Idea projektu" class="md-nav__link">
+      Idea projektu
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../responsibilityArea/" title="Zakres odpowiedzialności" class="md-nav__link">
+      Zakres odpowiedzialności
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../workPlan/" title="Podział prac" class="md-nav__link">
+      Podział prac
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../search/" title="Komponent `search`" class="md-nav__link">
+      Komponent `search`
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../schedule/" title="Komponent `schedule`" class="md-nav__link">
+      Komponent `schedule`
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../community/" title="Komponent `community`" class="md-nav__link">
+      Komponent `community`
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Wyszukiwarka
+      </label>
+    
+    <a href="./" title="Wyszukiwarka" class="md-nav__link md-nav__link--active">
+      Wyszukiwarka
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Spis treści</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informacje-ogolne" title="Informacje ogólne" class="md-nav__link">
+    Informacje ogólne
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#graphbuilder" title="GraphBuilder" class="md-nav__link">
+    GraphBuilder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pathfinder" title="PathFinder" class="md-nav__link">
+    PathFinder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coursesearch" title="CourseSearch" class="md-nav__link">
+    CourseSearch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#przypadki-testowe" title="Przypadki testowe" class="md-nav__link">
+    Przypadki testowe
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#package-dataprovideronecourse" title="Package dataprovider.onecourse" class="md-nav__link">
+    Package dataprovider.onecourse
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-przypadek-onecourseonecoursepart" title="1 przypadek - onecourse.OneCoursePart" class="md-nav__link">
+    1 przypadek - onecourse.OneCoursePart
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-przypadek-onecoursetwocourseparts" title="2 przypadek - onecourse.TwoCourseParts" class="md-nav__link">
+    2 przypadek - onecourse.TwoCourseParts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-przypadek-onecoursethreecourseparts" title="3 przypadek - onecourse.ThreeCourseParts" class="md-nav__link">
+    3 przypadek - onecourse.ThreeCourseParts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-dataprovidertwocourses" title="Package dataprovider.twocourses" class="md-nav__link">
+    Package dataprovider.twocourses
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4-przypadek-twocoursesonepath" title="4 przypadek - twocourses.OnePath" class="md-nav__link">
+    4 przypadek - twocourses.OnePath
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-przypadek-twocoursestwopaths" title="5 przypadek - twocourses.TwoPaths" class="md-nav__link">
+    5 przypadek - twocourses.TwoPaths
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-przypadek-twocoursesonepathtwosamecourses" title="6 przypadek - twocourses.OnePathTwoSameCourses" class="md-nav__link">
+    6 przypadek - twocourses.OnePathTwoSameCourses
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-dataproviderthreecourses" title="Package dataprovider.threecourses" class="md-nav__link">
+    Package dataprovider.threecourses
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-przypadek-twocoursestwocomplexpath" title="7 przypadek - twocourses.TwoComplexPath" class="md-nav__link">
+    7 przypadek - twocourses.TwoComplexPath
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../patterns/" title="Wzorce projektowe" class="md-nav__link">
+      Wzorce projektowe
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Spis treści</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#informacje-ogolne" title="Informacje ogólne" class="md-nav__link">
+    Informacje ogólne
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#graphbuilder" title="GraphBuilder" class="md-nav__link">
+    GraphBuilder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pathfinder" title="PathFinder" class="md-nav__link">
+    PathFinder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coursesearch" title="CourseSearch" class="md-nav__link">
+    CourseSearch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#przypadki-testowe" title="Przypadki testowe" class="md-nav__link">
+    Przypadki testowe
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#package-dataprovideronecourse" title="Package dataprovider.onecourse" class="md-nav__link">
+    Package dataprovider.onecourse
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-przypadek-onecourseonecoursepart" title="1 przypadek - onecourse.OneCoursePart" class="md-nav__link">
+    1 przypadek - onecourse.OneCoursePart
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-przypadek-onecoursetwocourseparts" title="2 przypadek - onecourse.TwoCourseParts" class="md-nav__link">
+    2 przypadek - onecourse.TwoCourseParts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-przypadek-onecoursethreecourseparts" title="3 przypadek - onecourse.ThreeCourseParts" class="md-nav__link">
+    3 przypadek - onecourse.ThreeCourseParts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-dataprovidertwocourses" title="Package dataprovider.twocourses" class="md-nav__link">
+    Package dataprovider.twocourses
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4-przypadek-twocoursesonepath" title="4 przypadek - twocourses.OnePath" class="md-nav__link">
+    4 przypadek - twocourses.OnePath
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-przypadek-twocoursestwopaths" title="5 przypadek - twocourses.TwoPaths" class="md-nav__link">
+    5 przypadek - twocourses.TwoPaths
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-przypadek-twocoursesonepathtwosamecourses" title="6 przypadek - twocourses.OnePathTwoSameCourses" class="md-nav__link">
+    6 przypadek - twocourses.OnePathTwoSameCourses
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#package-dataproviderthreecourses" title="Package dataprovider.threecourses" class="md-nav__link">
+    Package dataprovider.threecourses
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-przypadek-twocoursestwocomplexpath" title="7 przypadek - twocourses.TwoComplexPath" class="md-nav__link">
+    7 przypadek - twocourses.TwoComplexPath
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="wyszukiwarka">Wyszukiwarka</h1>
+<h2 id="informacje-ogolne">Informacje ogólne</h2>
+<p>Wyszukiwarka składa się z 4 serwisów:</p>
+<ul>
+<li>GraphBuilder</li>
+<li>PathFinder</li>
+<li>CourseSearch</li>
+<li>CoursePartsProvider</li>
+</ul>
+<h3 id="graphbuilder">GraphBuilder</h3>
+<ul>
+<li>Zajmuje sie tworzeniem grafu skierowanego na podstawie przekazanych do niego CoursePart's. </li>
+<li>Graf składa się z obiektów <strong>Node</strong>, gdzie jeden Node odpowiada jednemu miejscu czyli obiektowi <strong>Place</strong>.</li>
+<li>Graf przechowuje wszystkie zbudowane Node w strukturze<strong>Map<Long, Node></strong>, gdzie Long odpowiada identyfikatorowi miejsca <strong>Place</strong> </li>
+<li>Każdy Node przechowuje informacje o sąsiednich miejscach. Można je pobrać za pomocą metody <strong>getNearbyNodes</strong></li>
+<li>Każdy Node przechowuje informacje o CoursePart z których został stworzony. Dzięki temu możliwe, jest pobranie w dalszej części odpowiednich kursów, a także informacji o nich. Można je pobrać za pomocą metody <strong>getCoursePartsForPlace</strong>, gdzie jako argument należy podać identyfikator miejsca (<strong>destination</strong>).</li>
+</ul>
+<h3 id="pathfinder">PathFinder</h3>
+<ul>
+<li>Przeszukuje graf w celu znalezienia drogi między dwoma miejscami</li>
+</ul>
+<h3 id="coursesearch">CourseSearch</h3>
+<ul>
+<li>Zarządza budowanie oraz przeszukiwanie grafu</li>
+<li>Tworzy CourseSearchResult</li>
+</ul>
+<hr />
+<h2 id="przypadki-testowe">Przypadki testowe</h2>
+<p>W folderze z testami znajduje się package <strong>dataprovider</strong>, który zawiera klasy dostarczające danych na temat kursów</p>
+<h3 id="package-dataprovideronecourse">Package dataprovider.onecourse</h3>
+<p>Zawiera tylko jeden kurs o różnych ilościach CoursePart</p>
+<h4 id="1-przypadek-onecourseonecoursepart">1 przypadek - onecourse.OneCoursePart</h4>
+<p><img alt="" src="onecourse/onecoursepart.jpg" /></p>
+<h4 id="2-przypadek-onecoursetwocourseparts">2 przypadek - onecourse.TwoCourseParts</h4>
+<p><img alt="" src="onecourse/twocourseparts.jpg" /></p>
+<h4 id="3-przypadek-onecoursethreecourseparts">3 przypadek - onecourse.ThreeCourseParts</h4>
+<p><img alt="" src="onecourse/threecourseparts.jpg" /></p>
+<hr />
+<h3 id="package-dataprovidertwocourses">Package dataprovider.twocourses</h3>
+<p>Zawiera dwa kursy o różnych ilościach CoursePart oraz ścieżek, które można w nim znaleźć</p>
+<h4 id="4-przypadek-twocoursesonepath">4 przypadek - twocourses.OnePath</h4>
+<p><img alt="" src="twocourses/onepath.jpg" /></p>
+<h4 id="5-przypadek-twocoursestwopaths">5 przypadek - twocourses.TwoPaths</h4>
+<p><img alt="" src="twocourses/twopaths.jpg" /></p>
+<h4 id="6-przypadek-twocoursesonepathtwosamecourses">6 przypadek - twocourses.OnePathTwoSameCourses</h4>
+<p><img alt="" src="twocourses/onepathtwosamecourses.jpg" /></p>
+<h3 id="package-dataproviderthreecourses">Package dataprovider.threecourses</h3>
+<p>Zawiera trzy kursy o różnych ilościach CoursePart oraz ścieżek, które można w nim znaleźć</p>
+<h4 id="7-przypadek-twocoursestwocomplexpath">7 przypadek - twocourses.TwoComplexPath</h4>
+<p><img alt="" src="threecourses/twocomplexpaths.jpg" /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../community/" title="Komponent `community`" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Poprzednia strona
+                </span>
+                Komponent `community`
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../patterns/" title="Wzorce projektowe" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Następna strona
+                </span>
+                Wzorce projektowe
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.2ba8dec4.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
