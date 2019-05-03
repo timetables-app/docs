@@ -49,10 +49,22 @@ Zawiera tylko jeden kurs o różnych ilościach CoursePart
  
 Zawiera dwa kursy o różnych ilościach CoursePart oraz ścieżek, które można w nim znaleźć
 
-#### 4 przypadek - onecourse.OnePath
+#### 4 przypadek - twocourses.OnePath
 
 ![](twocourses/onepath.jpg)
 
-#### 5 przypadek - onecourse.TwoPaths
+#### 5 przypadek - twocourses.TwoPaths
 
 ![](twocourses/twopaths.jpg)
+
+#### 6 przypadek - twocourses.OnePathTwoSameCourses
+
+![](twocourses/onepathtwosamecourses.jpg)
+
+### Package dataprovider.threecourses
+ 
+Zawiera trzy kursy o różnych ilościach CoursePart oraz ścieżek, które można w nim znaleźć
+
+#### 7 przypadek - twocourses.TwoComplexPath
+
+![](threecourses/twocomplexpaths.jpg)
