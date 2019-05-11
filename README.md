@@ -1,3 +1,6 @@
+# Documentation link
+https://timetables-app.github.io/docs/
+
 # Documentation tools
 This documentation is built with mkdocs tool and deployed
 to GitHub Pages.
